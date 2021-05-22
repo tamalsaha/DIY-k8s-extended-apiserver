@@ -23,8 +23,8 @@ func (s GenericServer) tlsConfig() *tls.Config {
 	}
 	/*
 		Ref:
+		 - https://venilnoronha.io/a-step-by-step-guide-to-mtls-in-go
 		 - https://blog.cloudflare.com/exposing-go-on-the-internet/
-		 - http://www.bite-code.com/2015/06/25/tls-mutual-auth-in-golang/
 		 - http://www.hydrogen18.com/blog/your-own-pki-tls-golang.html
 	*/
 	tlsConfig := &tls.Config{
